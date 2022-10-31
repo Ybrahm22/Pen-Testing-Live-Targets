@@ -19,7 +19,7 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 Vulnerability: Session Hijacking
 
-Description: Using the session id manipulation link provided by codepath. I was able to login into the same account by changing the session id to an account that was already loggged in.
+Description: Using the session id manipulation link provided by codepath I was able to login into the same account by changing the session id to an account that was already logged in.
 
 GIF Walkthrough: <img src='https://github.com/Ybrahm22/Pen-Testing-Live-Targets/blob/main/Blue_SessionHijacking.gif' title='Session Hijack' width='' alt='Session Hijack' />
 
