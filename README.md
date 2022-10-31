@@ -1,6 +1,6 @@
 # Pen Testing Live Targets
 
-Time spent: **X** hours spent in total
+Time spent: **2** hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -17,32 +17,33 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability: Session Hijacking
 
-Description:
+Description: Using the session id manipulation link provided by codepath. I was able to login into the same account by changing the session id to an account that was already loggged in.
 
-<img src="blue-vuln1.gif">
+GIF Walkthrough: <img src='https://github.com/Ybrahm22/Pen-Testing-Live-Targets/blob/main/Blue_SessionHijacking.gif' title='Session Hijack' width='' alt='Session Hijack' />
 
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability: User Enumeration
 
-Description:
+Description: On the site login page, if a user attempts to login with a username present in the database but with an incorrect password an error prompt will show up in all bolded characters. However, if a login is attempted with a username that is not present in the database, the error prompt will show up unbolded. 
 
-<img src="green-vuln1.gif">
+GIF Walkthrough: <img src='https://github.com/Ybrahm22/Pen-Testing-Live-Targets/blob/main/Green_UserEnumeration.gif' title='User Enumeration' width='' alt='User Enumeration' />
+
 
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability: IDOR
 
-Description:
+Description: Upon manipulating the URL we are able to land onto a page that we should not be able to see
 
-<img src="red-vuln1.gif">
+GIF Walkthrough: <img src='https://github.com/Ybrahm22/Pen-Testing-Live-Targets/blob/main/Red_Idor.gif' title='IDOR' width='' alt='IDOR' />
 
 
-## Notes
 
-Describe any challenges encountered while doing the work
+
+
 
